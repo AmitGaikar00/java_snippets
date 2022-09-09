@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+int n = sc.nextLong();
+]]></content>
+  <tabTrigger>sclong</tabTrigger>
+  <description>new_long</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope >source.python</scope > -->
+</snippet>

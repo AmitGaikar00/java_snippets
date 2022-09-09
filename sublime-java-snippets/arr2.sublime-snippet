@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+int [][]arr = new int[][];
+]]></content>
+  <tabTrigger>arr2</tabTrigger>
+  <description>arr2d</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope >source.python</scope > -->
+</snippet>

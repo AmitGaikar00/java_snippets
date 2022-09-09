@@ -1,0 +1,10 @@
+
+<snippet>
+  <content><![CDATA[
+int n = sc.next();
+]]></content>
+  <tabTrigger>scword</tabTrigger>
+  <description>new_string</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope >source.python</scope > -->
+</snippet>

@@ -1,0 +1,10 @@
+
+<snippet>
+  <content><![CDATA[
+Scanner sc = new Scanner(System.in);
+]]></content>
+  <tabTrigger>scan</tabTrigger>
+  <description>scanner</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope >source.python</scope > -->
+</snippet>

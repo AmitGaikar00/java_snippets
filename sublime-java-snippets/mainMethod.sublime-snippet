@@ -1,0 +1,16 @@
+
+<snippet>
+  <content><![CDATA[
+public static void main(String[] args) {
+
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+
+}
+
+]]></content>
+  <tabTrigger>main</tabTrigger>
+  <description>main_method</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope >source.python</scope > -->
+</snippet>

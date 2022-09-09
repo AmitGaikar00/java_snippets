@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+int n = sc.nextLine();
+]]></content>
+  <tabTrigger>scstring</tabTrigger>
+  <description>new_big_string</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope >source.python</scope > -->
+</snippet>

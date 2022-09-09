@@ -1,0 +1,13 @@
+
+
+<snippet>
+  <content><![CDATA[
+for (int i=0 ; i<arr.length ; i++ ) {
+    System.out.println(arr[i]);
+}
+]]></content>
+  <tabTrigger>showarr</tabTrigger>
+  <description>printarr</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope >source.python</scope > -->
+</snippet>

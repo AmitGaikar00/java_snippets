@@ -1,0 +1,10 @@
+
+<snippet>
+  <content><![CDATA[
+System.out.printf();
+]]></content>
+  <tabTrigger>sysf</tabTrigger>
+  <description>printf</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope >source.python</scope > -->
+</snippet>
