@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+void reverse_arr(int []arr){            
+          int si = 0;
+          int ei = arr.length-1;
+          while(si < ei){
+            int t = arr[si];
+            arr[si]= arr[ei];
+            arr[ei]=t;
+            si++;
+            ei--;
+          }          
+}
+
+]]></content>
+  <tabTrigger>funcrev</tabTrigger>
+  <description>reverse_arr_function</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope >source.python</scope > -->
+</snippet>

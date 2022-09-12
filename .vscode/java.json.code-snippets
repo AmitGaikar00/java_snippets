@@ -181,7 +181,7 @@
 	  },
 
 	  "array_input": {
-		"prefix": "inputarr",
+		"prefix": "scarr",
 		"body": [
 		  "for(int i=0 ; i< n; i++){",
 		  "   arr[i] = sc.nextInt();",
@@ -191,7 +191,7 @@
 	  },
 
 	  "array_input2d": {
-		"prefix": "inputarr2",
+		"prefix": "scarr2",
 		"body": [
 		  "for(int i=0 ; i< arr.length; i++){",
 		  "      for(int j=0 ; j <arr[0].length;j++){",
@@ -240,6 +240,75 @@
 		  "int n = sc.nextDouble();"
 		],
 		"description": "new_double"
+	  },
+
+	  "transpose_function": {
+		"prefix": "functranspose",
+		"body": [
+		  "void transpose(int [][]arr){",
+		  "         for (int i=0 ; i<arr.length ; i++ ) {",
+		  "             for(int j=i ; j< arr.length ; j++){",
+		  "                 int t = arr[i][j];",
+		  "                 arr[i][j] = arr[j][i];",
+		  "                 arr[j][i] =t;",
+		  "             }  ",
+		  "         }",
+		  "    }"
+		],
+		"description": "transpose_function"
+	  },
+
+	  "reverse_arr2d_function": {
+		"prefix": "funcrev2d",
+		"body": [
+		  "void reverse_arr2d(int [][]arr){",
+		  "          for (int i=0 ; i<arr.length ; i++ ) {",
+		  "              ",
+		  "              int si = 0;",
+		  "              int ei = arr[0].length-1;",
+		  "              while(si < ei){",
+		  "                int t = arr[i][si];",
+		  "                arr[i][si]= arr[i][ei];",
+		  "                arr[i][ei]=t;",
+		  "                si++;",
+		  "                ei--;",
+		  "              }",
+		  "          }",
+		  "}"
+		],
+		"description": "reverse_arr2d_function"
+	  },
+
+	  "reverse_arr_function": {
+		"prefix": "funcrev",
+		"body": [
+		  "void reverse_arr(int []arr){            ",
+		  "          int si = 0;",
+		  "          int ei = arr.length-1;",
+		  "          while(si < ei){",
+		  "            int t = arr[si];",
+		  "            arr[si]= arr[ei];",
+		  "            arr[ei]=t;",
+		  "            si++;",
+		  "            ei--;",
+		  "          }          ",
+		  "}",
+		  ""
+		],
+		"description": "reverse_arr_function"
+	  },
+
+	  "swap_function": {
+		"prefix": "funcswap",
+		"body": [
+		  "void swap_int(int a , int b ){            ",
+		  "              ",
+		  "        int t = a;",
+		  "        a = b;",
+		  "        b = t;",
+		  "}"
+		],
+		"description": "swap_function"
 	  }
 
 

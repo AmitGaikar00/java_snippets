@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+void swap_int(int a , int b ){            
+              
+        int t = a;
+        a = b;
+        b = t;
+}
+]]></content>
+  <tabTrigger>funcswap</tabTrigger>
+  <description>swap_function</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope >source.python</scope > -->
+</snippet>
