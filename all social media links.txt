@@ -1,0 +1,13 @@
+1.github = https://github.com/AmitGaikar00
+
+2.repl =https://replit.com/@AmitGaikar
+
+3.codepen= https://codepen.io/AmitGaikar00 
+
+4.twitter = https://twitter.com/AmitGaikar00
+
+5.instagram = https://www.instagram.com/amitgaikar00/
+
+6.linkedin = https://www.linkedin.com/in/amitgaikar00/
+
+7.leetcode = https://leetcode.com/AmitGaikar00/

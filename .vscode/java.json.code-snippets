@@ -172,7 +172,7 @@
 	  },
 
 	  "for_loop": {
-		"prefix": "for",
+		"prefix": "forloop",
 		"body": [
 		  "for(int i=0 ; i< n; i++){",
 		  "}"
